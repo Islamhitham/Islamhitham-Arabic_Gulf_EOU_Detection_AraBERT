@@ -1,0 +1,26 @@
+# Model
+model/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.safetensors
+
+# WandB
+wandb/
+
+# Data
+dataset/*
+!dataset/*.py
+raw_data/
+data/
+
+# Environment and Logs
+.env
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
